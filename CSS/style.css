@@ -1047,9 +1047,12 @@ height: 300px;
         font-size:28px;
     }
 
-    .hero-logo,
+    .hero-logo {
+         width:320px;
+    }
     .hero-logo-final{
-        width:280px;
+        width:320px;
+        padding-top: 20px;
     }
 
 }
