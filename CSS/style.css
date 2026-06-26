@@ -1029,7 +1029,7 @@ height: 300px;
 }
 @media screen and (max-width:480px){/*Iphones*/
  .about-image img {
-height: 200px;
+height: 230px;
  }
     .hero-question h1{
         font-size:28px;
