@@ -998,6 +998,14 @@ height: 300px;
     nav .btn{
         margin-top:15px;
     }
+     .hero-logo{
+        width:320px !important;
+        max-width:70%;
+    }
+    .hero-logo-final{
+        width:300px !important;
+        max-width:80%;
+    }
    
     .hero-buttons{
         flex-direction:column !important;
