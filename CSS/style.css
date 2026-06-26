@@ -591,7 +591,7 @@ footer a {
 
 .about-image img{
     width:100%;
-    aspect-ratio:1/1;
+    height: 520px;
     object-fit:cover;
     border-radius:15px;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
