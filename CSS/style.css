@@ -1054,11 +1054,24 @@ height: 300px;
         flex-wrap:wrap;
     }
 
-    .menu-toggle{
+   .menu-toggle{
         display:block;
-        font-size:28px;
+        font-size:30px;
         color:white;
         cursor:pointer;
+        user-select:none;
+    }
+    
+    .menu-toggle i{
+        transition:
+            transform .35s ease,
+            color .35s ease,
+            opacity .25s ease;
+    }
+
+    .menu-toggle.active i{
+        transform:rotate(180deg) scale(1.08);
+        color:#D4A017;
     }
 
     .nav-menu{
