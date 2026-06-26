@@ -64,13 +64,33 @@ ${message}`;
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector(".nav-menu");
+const menuIcon = document.querySelector(".menu-toggle i");
 
-if (menuToggle) {
+menuToggle.addEventListener("click", () => {
 
-    menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+    menuToggle.classList.toggle("active");
 
-        navMenu.classList.toggle("active");
+    if (navMenu.classList.contains("active")) {
+        menuIcon.classList.remove("fa-bars");
+        menuIcon.classList.add("fa-times");
+    } else {
+        menuIcon.classList.remove("fa-times");
+        menuIcon.classList.add("fa-bars");
+    }
+
+});
+
+const navLinks = document.querySelectorAll(".nav-menu a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+
+        navMenu.classList.remove("active");
+        menuToggle.classList.remove("active");
+
+        menuIcon.classList.remove("fa-times");
+        menuIcon.classList.add("fa-bars");
 
     });
-
-}
+});
