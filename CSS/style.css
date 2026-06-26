@@ -831,7 +831,10 @@ footer a {
 
 @media(max-width:768px){
 
-.contact-container{
+.about-image img{
+height: 300px;
+}
+    .contact-container{
     grid-template-columns:1fr;
 }
 
