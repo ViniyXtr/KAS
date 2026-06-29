@@ -8,7 +8,7 @@ html{
 }
 :root{
     --body-font: 'Inter', 'Segoe UI', sans-serif;
-    --heading-font: 'Poppins', 'Segoe UI', sans-serif;
+    --heading-font:  'Segoe UI', sans-serif;
 }
 h1,
 h2,
